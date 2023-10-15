@@ -21,7 +21,7 @@ import Slider from "react-slick";
 function Home() {
 
 
-  const slides = [{ img: "/public/assets/camel.jpeg" }, { img: "/public/assets/camel.jpeg"}, { img: "/public/assets/camel.jpeg" }, { img: "/public/assets/camel.jpeg" }, { img: "/public/assets/camel.jpeg"}]
+  const slides = [{ img: "./assets/camel.jpeg" }, { img: "./assets/camel.jpeg"}, { img: "./assets/camel.jpeg" }, { img: "./assets/camel.jpeg" }, { img: "./assets/camel.jpeg"}]
 
   return (
     <>
@@ -30,7 +30,7 @@ function Home() {
       <section
         className="h-[80vh] mt-10 md:mt-[100px] flex flex-col items-center justify- w-full relative"
         style={{
-          backgroundImage: "url(/public/assets/old.jpg)",
+          backgroundImage: "url(./assets/old.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -134,7 +134,7 @@ function Home() {
               <span className="absolute bottom-0 md:bottom-0 right-0 md:right-0  opacity-0 hover:opacity-50 bg-black flex items-center justify-center w-full h-full   text-xl  text-white">
                 cairo
               </span>
-              <img src="/public/assets/old.jpg" className="w-full " alt="" />
+              <img src="./assets/old.jpg" className="w-full " alt="" />
             </div>
 
             <div className="w-full md:w-[33%] relative">
@@ -145,7 +145,7 @@ function Home() {
                 cairo
               </span>
               <img
-                src="/public/assets/place2.jpg"
+                src="./assets/place2.jpg"
                 className="w-full h-full "
                 alt=""
               />
@@ -161,7 +161,7 @@ function Home() {
                 cairo
               </span>
               <img
-                src="/public/assets/place3.jpeg"
+                src="./assets/place3.jpeg"
                 className="w-full h-full "
                 alt=""
               />
@@ -174,7 +174,7 @@ function Home() {
                 cairo
               </span>
               <img
-                src="/public/assets/place4.jpeg"
+                src="./assets/place4.jpeg"
                 className="w-full "
                 alt=""
               />
@@ -187,7 +187,7 @@ function Home() {
                 cairo
               </span>
               <img
-                src="/public/assets/place5.jpeg"
+                src="./assets/place5.jpeg"
                 className="w-full "
                 alt=""
               />
@@ -218,7 +218,7 @@ function Home() {
             $3543543
           </span>
           <img
-            src="/public/assets/place2.jpg"
+            src="./assets/place2.jpg"
             className="w-full h-[50%]"
             alt=""
           />
@@ -259,7 +259,7 @@ function Home() {
             $3543543
           </span>
           <img
-            src="/public/assets/place1.jpeg"
+            src="./assets/place1.jpeg"
             className="w-full h-[50%]"
             alt=""
           />
@@ -300,7 +300,7 @@ function Home() {
             $3543543
           </span>
           <img
-            src="/public/assets/place5.jpeg"
+            src="./assets/place5.jpeg"
             className="w-full h-[50%]"
             alt=""
           />
@@ -368,7 +368,7 @@ function Home() {
 
           <div className="w-full md:w-[60%]">
             <img
-              src="/public/assets/camel.jpeg"
+              src="./assets/camel.jpeg"
               className="w-full h-full object-cover"
               alt=""
             />
@@ -382,7 +382,7 @@ function Home() {
 $3543543
 </span> */}
           <img
-            src="/public/assets/view4.jpeg"
+            src="./assets/view4.jpeg"
             className="w-full h-[50%]"
             alt=""
           />
@@ -423,7 +423,7 @@ $3543543
 $3543543
 </span> */}
           <img
-            src="/public/assets/view3.jpeg"
+            src="./assets/view3.jpeg"
             className="w-full h-[50%]"
             alt=""
           />
@@ -464,7 +464,7 @@ $3543543
             $3543543
           </span>
           <img
-            src="/public/assets/view2.jpeg"
+            src="./assets/view2.jpeg"
             className="w-full h-[50%]"
             alt=""
           />
@@ -504,7 +504,7 @@ $3543543
       <section
         className="h-[60vh] mt-10 md:mt-[100px] flex flex-col items-center justify-center gap-10 w-full relative"
         style={{
-          backgroundImage: "url(/public/assets/old.jpg)",
+          backgroundImage: "url(./assets/old.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -553,7 +553,7 @@ Customers Reviews
   <div className="flex items-center justify-between w-[90%] mx-auto mt-8">
   <div className="w-[100px] h-[100px] rounded-full bg-white flex items-center justify-center">
     <img
-      src="/public/assets/camel.jpeg"
+      src="./assets/camel.jpeg"
       alt="User Avatar"
       className="w-[90px] h-[90px] rounded-full"
     />
@@ -597,7 +597,7 @@ Customers Reviews
  <div className="flex items-center justify-between w-[90%] mx-auto mt-8">
  <div className="w-[100px] h-[100px] rounded-full bg-white flex items-center justify-center">
    <img
-     src="/public/assets/camel.jpeg"
+     src="./assets/camel.jpeg"
      alt="User Avatar"
      className="w-[90px] h-[90px] rounded-full"
    />
@@ -643,7 +643,7 @@ Customers Reviews
  <div className="flex items-center justify-between w-[90%] mx-auto mt-8">
  <div className="w-[100px] h-[100px] rounded-full bg-white flex items-center justify-center">
    <img
-     src="/public/assets/camel.jpeg"
+     src="./assets/camel.jpeg"
      alt="User Avatar"
      className="w-[90px] h-[90px] rounded-full"
    />
@@ -694,7 +694,7 @@ Customers Reviews
         how to travel with Karem mahmoud abdelkader
       </span>
           <img
-            src="/public/assets/tourist.jpeg"
+            src="./assets/tourist.jpeg"
             className="w-full h-full"
             alt=""
           />
@@ -709,7 +709,7 @@ Customers Reviews
         how to travel with Karem mahmoud abdelkader
       </span>
           <img
-            src="/public/assets/tourist2.jpeg"
+            src="./assets/tourist2.jpeg"
             className="w-full h-full"
             alt=""
           />
@@ -728,7 +728,7 @@ Customers Reviews
         how to travel with Karem mahmoud abdelkader
       </span>
           <img
-            src="/public/assets/tourist3.jpeg"
+            src="./assets/tourist3.jpeg"
             className="w-full h-full"
             alt=""
           />
